@@ -3,28 +3,28 @@
 ## Background & Skills
 
 **1. Major:**  
-[Your answer here]
+VCD
 
 **2. Design courses completed:**  
-[ ] DESN 100  
-[ ] DESN 200  
-[ ] DESN 216  
-[ ] DESN 243  
-[ ] DESN 263  
-[ ] DESN 338  
+[x] DESN 100  
+[x] DESN 200  
+[x] DESN 216  
+[x] DESN 243  
+[x] DESN 263  
+[x] DESN 338  
 [ ] None  
-[ ] Other: _______________
+[ ] Other: DESN 359, DESN 495, DESN 496
 
 **3. Web experience:**  
 [ ] Never coded  
 [ ] Viewed source  
-[ ] Modified HTML/CSS  
+[x] Modified HTML/CSS  
 [ ] Built websites  
 [ ] Professional work
 
 **4. AI tool experience:**  
 [ ] Never used  
-[ ] ChatGPT occasionally  
+[x] ChatGPT occasionally  
 [ ] Regular AI user  
 [ ] Coding with AI  
 [ ] Not sure what this means
@@ -32,16 +32,16 @@
 ## Designer-Coder Mindset
 
 **5. When you see a website, you primarily notice:**  
-[ ] Visual design  
+[x] Visual design  
 [ ] How it functions  
 [ ] Both equally  
 [ ] Other: _______________
 
 **6. Rate your comfort level (1-5 scale, 5 = very comfortable):**  
-- Sketching ideas: ___  
-- Problem-solving: ___  
-- Design software: ___  
-- Giving/receiving feedback: ___
+- Sketching ideas: 5 
+- Problem-solving: 4 
+- Design software: 4  
+- Giving/receiving feedback: 4
 
 **7. Learning preference:**  
 [ ] Jump in and build  
