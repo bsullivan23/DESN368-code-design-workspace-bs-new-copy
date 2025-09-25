@@ -13,7 +13,7 @@ VCD
 - [x] DESN 263  
 - [x] DESN 338  
 [ ] None  
- [x] Other: DESN 359, DESN 495, DESN 496
+- [x] Other: DESN 359, DESN 495, DESN 496
 
 **3. Web experience:**  
 [ ] Never coded  
