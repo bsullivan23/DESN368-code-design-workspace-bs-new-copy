@@ -6,7 +6,7 @@
 VCD
 
 **2. Design courses completed:**  
-- [x]DESN 100  
+- [x] DESN 100  
 - [x] DESN 200  
 - [x] DESN 216  
 - [x] DESN 243  
