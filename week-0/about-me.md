@@ -13,7 +13,7 @@ VCD
 - [x] DESN 263  
 - [x] DESN 338  
 [ ] None  
-- [x] Other: DESN 359, DESN 495, DESN 496
+ [x] Other: DESN 359, DESN 495, DESN 496
 
 **3. Web experience:**  
 [ ] Never coded  
@@ -88,7 +88,7 @@ VCD
 [ ] Server communication
 
 **13. One thing you hope to create by course end:**  
-I really don't have a lot of knowledge about code so I hope to learn how to do just about anything. I have only ever modified code for websliders for my current jobs website,so anything more than that is great!
+I really don't have a lot of knowledge about code so I hope to learn how to create just about anything. I have only ever modified code for websliders for my current jobs website,so anything more than that is great!
 
 ---
 *This intake will help me understand your background and tailor the course experience. Feel free to expand on any answers!*
