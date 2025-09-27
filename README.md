@@ -43,7 +43,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **GitHub:** https://github.com/sicxz/DESN368-code-design-workspace ⏳
 - **Workspace (Forked Repo):** https://github.com/bsullivan23/DESN368-code-design-workspace-BS ⏳
 - **Figma:** bsullivan5@ewu.edu ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
+- **CodePen:** https://codepen.io/bsullivan23 ⏳
 - **LiveCode:** [Add your LiveCode profile here] ⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳  
 
