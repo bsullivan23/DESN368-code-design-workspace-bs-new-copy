@@ -45,7 +45,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Figma:** bsullivan5@ewu.edu ⏳
 - **CodePen:** https://codepen.io/bsullivan23 ⏳
 - **LiveCode:** [Add your LiveCode profile here] ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳  
+- **GitHub Student Pack:** Approved ⏳  
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
