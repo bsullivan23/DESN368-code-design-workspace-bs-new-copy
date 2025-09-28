@@ -44,7 +44,6 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace (Forked Repo):** https://github.com/bsullivan23/DESN368-code-design-workspace-BS ⏳
 - **Figma:** bsullivan5@ewu.edu ⏳
 - **CodePen:** https://codepen.io/bsullivan23 ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
 - **GitHub Student Pack:** Approved ⏳  
 
 ### **How to Update Your Toolkit:**
@@ -53,7 +52,6 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
    - Change `[Add your forked repo link here]` → `https://github.com/YourUsername/DESN368-code-design-workspace`  
    - Change `[Add your Figma username here]` → your Figma username  
    - Change `[Add your CodePen profile URL here]` → `https://codepen.io/YourUsername`  
-   - Change `[Add your LiveCode profile here]` → your LiveCode link  
    - Change `[Confirm approval status here]` → `Approved` or `Pending` for GitHub Pack  
 3. Scroll to bottom and click **"Commit changes"**  
 4. Repeat this process each time you complete a new tool setup  
@@ -63,7 +61,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🎯 **Course Progress**
 *Check off assignments as you complete them:*  
 
-- [ ] **Week 1:** S3tup & 0nb04rd1ng  
+- [x] **Week 1:** S3tup & 0nb04rd1ng  
 - [ ] **Week 2:** Th3 F1r5t T4g  
 - [ ] **Week 3:** D0cum3nt 4rch1t3ctur3  
 - [ ] **Week 4:** Th3 C4sc4d3 B3g1n5  
