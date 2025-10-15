@@ -1,5 +1,6 @@
-# 🎉 Welcome to DESN368 CODE + DESIGN ONE!
-Bre Sullivan 09/24/25
+# DESN368 CODE + DESIGN ONE!
+Bre Sullivan 
+**LiveSite:** https://design368-portfolio-bs.netlify.app/
 
 **Welcome to DESN368 Web Design!**  
 You're viewing the instructor's course repository(repo). This serves as your reference and source for all course materials.  
