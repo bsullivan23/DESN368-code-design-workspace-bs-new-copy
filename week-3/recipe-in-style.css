@@ -1,0 +1,64 @@
+/* Background gradient */
+body {
+  background: linear-gradient(to bottom, #fffaf0, #f0e6e6);
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+/* Center content container */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Typography hierarchy */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #4b2e2e;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 1.4rem;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+/* Ingredient list styling */
+.ingredients-list {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  list-style-type: square;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8rem;
+  color: #555;
+}
+/* Link styling */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e74c3c;
+}
