@@ -9,7 +9,7 @@ Submit your completed CodePen links below:
 
 1. 01-css-methods: (https://codepen.io/bsullivan23/pen/PwZBPJr)
 2. 02-class-id-selectors: [https://codepen.io/bsullivan23/pen/wBMxKEK]
-3. 03-grouping-selectors: [Your CodePen link here]
+3. 03-grouping-selectors: [https://codepen.io/bsullivan23/pen/PwZBPxo]
 4. 04-chaining-selectors: [Your CodePen link here]
 5. 05-descendant-combinator: [Your CodePen link here]
 
