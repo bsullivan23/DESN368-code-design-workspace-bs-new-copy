@@ -6,7 +6,7 @@
 
 ---
 
-## Week 1 - Introduction to the Internet and the Web
+## Week 1 - What is Web Design // The First Tag
 
 **Topics Covered:**
 - What is the Internet vs. the World Wide Web
@@ -22,7 +22,7 @@
 
 ---
 
-## Week 2 - [Topic Title]
+## Week 2 - Document Architecture
 
 **Topics Covered:**
 - [List main topics]
@@ -38,7 +38,7 @@
 
 ---
 
-## Week 3 - [Topic Title]
+## Week 3 - The Cascade Begins
 
 **Topics Covered:**
 - [List main topics]
@@ -54,7 +54,7 @@
 
 ---
 
-## Week 4 - Repository Organization & Documentation
+## Week 4 - Ultra Lists, Anchor Power, & Box Magic
 
 **Topics Covered:**
 - Repository organization
@@ -71,6 +71,8 @@
 
 ---
 ## Week 5 -
+---
+## Week 6 - Flexbox a Tribute
 
 ## Resources
 
