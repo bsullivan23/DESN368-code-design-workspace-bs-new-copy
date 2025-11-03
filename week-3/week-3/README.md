@@ -13,4 +13,4 @@ Submit your completed CodePen links below:
 4. 04-chaining-selectors: [https://codepen.io/bsullivan23/pen/qEbyOgJ?editors=1100]
 5. 05-descendant-combinator: [https://codepen.io/bsullivan23/pen/emJxNgG]
 
-**Cascade Exercise:** 6. 01-cascade-fix: [Your CodePen link here]
+**Cascade Exercise:** 6. 01-cascade-fix: [https://codepen.io/bsullivan23/pen/YPwBwXx?editors=1100]
