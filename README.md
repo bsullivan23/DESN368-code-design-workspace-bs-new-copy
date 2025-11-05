@@ -1,3 +1,9 @@
+# DESN368 - Web Design 1 Portfolio
+
+## About This Repository
+
+This repository documents my learning journey in Web Design 1 (DESN368) during [Quarter/Year]. Here you'll find my projects, experiments, and exercises as I learn HTML, CSS, and the fundamentals of web design.
+
 ## Bre Sullivan Code & Design 1 Course Overview
 
 - **Instructor:** Travis Masingale
