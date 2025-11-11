@@ -137,16 +137,22 @@ I applied Flexbox to build responsive layouts and created a mobile navigation sy
 - Mobile nav tutorial
 
 ## Resources
+https://www.theodinproject.com/ 
+https://www.codecademy.com/learn/learn-css
+https://developer.mozilla.org/en-US/
+https://www.figma.com/resource-library/design-basics/
 
-- [Link to course materials]
-- [Link to helpful websites or tutorials you found]
-- [Any other resources you want to remember]
 
 ## Tools Used
 
 - VS Code
 - Firefox Developer Edition
 - GitHub
-- [Other tools]
+- Netlify (early weeks)
+- GitHub Pages (after switch)
+- Figma
+- Codecademy
+- The Odin Project
 
 ---
+*This repository is part of my coursework for DESN368 - Code + Design 1*
