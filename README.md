@@ -137,10 +137,10 @@ I applied Flexbox to build responsive layouts and created a mobile navigation sy
 - Mobile nav tutorial
 
 ## Resources
-https://www.theodinproject.com/ 
-https://www.codecademy.com/learn/learn-css
-https://developer.mozilla.org/en-US/
-https://www.figma.com/resource-library/design-basics/
+- https://www.theodinproject.com/ 
+- https://www.codecademy.com/learn/learn-css
+- https://developer.mozilla.org/en-US/
+- https://www.figma.com/resource-library/design-basics/
 
 
 ## Tools Used
