@@ -1,0 +1,54 @@
+.container{
+ position:relative;
+ margin: 0 auto;
+  
+  
+}
+
+
+
+h1{
+  color:#461500;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;  ⁨ ⁨
+}
+
+h2{
+  color: #102D3B;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:normal;
+}
+
+h3{
+  color:#102D3B;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size:24px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+
+header{
+   background-image: url('week-4/images/pattern.png');
+  z-index: -1;
+  background-size: 500px;
+}
+
+h4{ 
+    background-image: url('images/emily-photo.png');
+    color:#102D3B;
+  font-family: "Noto Sans Devanagari";
+  font-size:20px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
+}
