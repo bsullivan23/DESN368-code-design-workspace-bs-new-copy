@@ -21,7 +21,7 @@ h1{
   font-size: 92px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;  ⁨ ⁨
+  line-height: normal;
 }
 
 h2{
@@ -45,7 +45,8 @@ h3{
 
 
 header{
-  background-image: url('week-4/images/pattern.png'); 
+  /* paths in CSS are relative to this CSS file (located in week-4/) */
+  background-image: url('images/pattern.png');
   z-index: -1;
   background-size: 500px;
   
@@ -63,16 +64,13 @@ h4{
 
 
 .portrait-img{
-  background-image: url('week-4/images/emily-photo.png'); lightgray 50% / cover no-repeat;
+  background: lightgray url('images/emily-photo.png') 50% / cover no-repeat;
   box-shadow: 0 4px 20px 6px rgba(131, 93, 159, 0.15);
-  background-size: cover;   
-  background-position: center; 
-  width: 844px;            
-  height: 1055px;           
+  background-position: center;
   margin: 0 auto;
   width: 835px;
-  height:1055px;
-  border:8px solid #E0D08C;
+  height: 1055px;
+  border: 8px solid #E0D08C;
 }
  
  .text-box{
