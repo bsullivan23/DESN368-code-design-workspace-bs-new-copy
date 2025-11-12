@@ -24,7 +24,7 @@ This repository documents my learning journey in Code + Design 1 (DESN368) durin
 I learned how the web evolved from static documents to interactive experiences, and how browsers interpret code to render pages. Understanding the difference between the Internet and the Web helped clarify the infrastructure behind websites.
 
 **Files:**
-Favorite Band, Lost Pet, Newspaper
+favorite-band, lost pet, Newspaper
 
 ---
 
@@ -44,7 +44,7 @@ I practiced building clean HTML documents using semantic elements and learned ho
 - wk 2 & 3 lab: GitHub Repo Organization (submitted Netlify link)
 
 **Files:**
-- [Link to specific files or note what's in the week-2 folder]
+craigslist-ad, lorem-ipsum, recipe, wiki-article
 
 ---
 
@@ -71,7 +71,7 @@ I began learning how CSS styles cascade and how selectors target elements. Setti
 - CSS Foundations from The Odin Project
 
 **Files:**
-- [Link to specific files or note what's in the week-3 folder]
+recipe-in-style.css, recipe-in-style.html, semantics-challenge
 
 ---
 
@@ -94,6 +94,10 @@ I explored how to structure content with lists and links, and how the box model 
 - ✓ Tribute site peer review
 - ✓ Certification Project: Tribute Page
 - ✓ Weekly visual notes
+
+**Files:**
+-tribute-styles.css
+-tribute-styles.html
 
 ---
 ## Week 5 - CSS Selectors & Layout Challenges
@@ -136,6 +140,9 @@ I applied Flexbox to build responsive layouts and created a mobile navigation sy
 - Flexbox tutorial
 - Mobile nav tutorial
 
+**Files:**
+
+---
 ## Resources
 - https://www.theodinproject.com/ 
 - https://www.codecademy.com/learn/learn-css
