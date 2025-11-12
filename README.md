@@ -95,9 +95,8 @@ I explored how to structure content with lists and links, and how the box model 
 - ✓ Certification Project: Tribute Page
 - ✓ Weekly visual notes
 
-**Files:**
--tribute-styles.css
--tribute-styles.html
+**Files:** 
+tribute-styles.css, tribute-styles.html
 
 ---
 ## Week 5 - CSS Selectors & Layout Challenges
