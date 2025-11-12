@@ -21,7 +21,7 @@ h1{
   font-size: 92px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  line-height: normal;  ⁨ ⁨
 }
 
 h2{
@@ -43,7 +43,6 @@ h3{
   line-height: normal;
 }
 
-
 header{
   position: absolute;
   top: 0;
@@ -57,6 +56,8 @@ header{
   
 }
 
+}
+
 h4{ 
   color:#102D3B;
   font-family: "Noto Sans Devanagari";
@@ -68,19 +69,20 @@ h4{
 
 
 .portrait-img{
-  background: lightgray url('images/emily-photo.png') 50% / cover no-repeat;
-  box-shadow: 0 4px 20px 6px rgba(131, 93, 159, 0.15);
-  background-position: center;
+  box-shadow: 0 4px 20px 6px rgba(131, 93, 159, 0.15);   
+  background-position: center; 
+  width: 844px;            
+  height: 1055px;           
   margin: 0 auto;
-  width: 844px;
-  height: 1055px;
-  border: 8px solid #E0D08C;
+  width: 835px;
+  height:1055px;
+  border:8px solid #E0D08C;
 }
  
  .text-box{
     background: rgba(235, 222, 226, 0.79);
     border: 8px solid #C09DA8;
-    width: 838px;
-
+    width:838px;
+    
   }
   
