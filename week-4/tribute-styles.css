@@ -1,10 +1,16 @@
+html, body {
+  height: 100%;          
+  margin: 0;             
+  background-color: #F2F8FA; 
+}
+
+
+
 .container{
  position:relative;
  margin: 0 auto;
-  
-  
+ width: 844px; 
 }
-
 
 
 
@@ -12,10 +18,10 @@ h1{
   color:#461500;
   text-align: center;
   font-family: "Playfair Display";
-  font-size: 96px;
+  font-size: 92px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: 600;
+  line-height: normal;  ⁨ ⁨
 }
 
 h2{
@@ -23,7 +29,7 @@ h2{
   text-align: center;
   font-size: 48px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height:normal;
 }
 
@@ -39,17 +45,40 @@ h3{
 
 
 header{
-   background-image: url('week-4/images/pattern.png');
+  background-image: url('week-4/images/pattern.png'); 
   z-index: -1;
   background-size: 500px;
+  
+  
 }
 
 h4{ 
-    background-image: url('images/emily-photo.png');
-    color:#102D3B;
+  color:#102D3B;
   font-family: "Noto Sans Devanagari";
   font-size:20px;
   font-style:normal;
   font-weight:400;
   line-height:normal;
 }
+
+
+.portrait-img{
+  background-image: url('week-4/images/emily-photo.png'); lightgray 50% / cover no-repeat;
+  box-shadow: 0 4px 20px 6px rgba(131, 93, 159, 0.15);
+  background-size: cover;   
+  background-position: center; 
+  width: 844px;            
+  height: 1055px;           
+  margin: 0 auto;
+  width: 835px;
+  height:1055px;
+  border:8px solid #E0D08C;
+}
+ 
+ .text-box{
+    background: rgba(235, 222, 226, 0.79);
+    border: 8px solid #C09DA8;
+    width:838px;
+    
+  }
+  
