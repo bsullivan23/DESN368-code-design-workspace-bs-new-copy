@@ -24,7 +24,7 @@ This repository documents my learning journey in Code + Design 1 (DESN368) durin
 I learned how the web evolved from static documents to interactive experiences, and how browsers interpret code to render pages. Understanding the difference between the Internet and the Web helped clarify the infrastructure behind websites.
 
 **Files:**
-- [Link to specific files or note what's in the week-1 folder]
+Favorite Band, Lost Pet, Newspaper
 
 ---
 
