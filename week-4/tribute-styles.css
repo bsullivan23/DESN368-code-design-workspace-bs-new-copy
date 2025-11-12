@@ -21,8 +21,9 @@ h1{
   font-size: 92px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;  ⁨ ⁨
+  line-height: normal;  
 }
+
 
 h2{
   color: #102D3B;
@@ -41,10 +42,10 @@ h3{
   font-style: normal;
   font-weight: 550;
   line-height: normal;
+  padding-top: 10px;
 }
 
 header{
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -63,7 +64,7 @@ h4{
   font-family: "Noto Sans Devanagari";
   font-size:20px;
   font-style:normal;
-  font-weight:400;
+  font-weight:300;
   line-height:normal;
 }
 
