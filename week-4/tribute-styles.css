@@ -57,13 +57,11 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('images/pattern.png');
+  background-image: url('images/pattern.png') alt="pattern background image";
   z-index: -1;
-  background-size: 500px;
+  background-size: 700px;
   
   
-}
-
 }
 
 h4{ 
@@ -87,11 +85,105 @@ h4{
   height:1055px;
   border:8px solid #E0D08C;
 }
- 
- .text-box{
+
+.text-box-pink{
     background: rgba(235, 222, 226, 0.79);
     border: 8px solid #C09DA8;
     width:838px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     
   }
+
+.text-box-green{
+  background: rgba(152,154,131, 0.42);
+  border: 8px solid #979A83;
+  width:834px;
+  margin-bottom: 80px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
   
+.text-box-tan{
+  background: rgba(197, 162, 123, 0.90);
+  border: 8px solid #C5A27B;
+  background-image: url('images/poem-background.png') alt="poem background image";
+  z-index:-1;
+  width:834px;
+  margin-bottom: 80px;
+  padding-top:90px;
+  padding-bottom:40px;
+}
+
+.section-label{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color:#461500;
+  font-family:"Playfair Display";
+  font-size:32px;
+  font-style: normal;
+  font-weight:600;
+  line-height:40px;
+}
+
+.section-text{
+  margin-top: 10px;
+  margin-bottom:30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color:#461500;
+  font-family:"Noto Sans Devanagari";
+  font-size:24px;
+  font-style:normal;
+  font-weight:400;
+  line-height: 30px;
+} 
+
+.section-quote{
+  color:#461500;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  width:621px;
+  margin-left: 180px;
+}
+
+.section-name{
+  margin-left: 400px;
+  color:#461500;
+  font-family:"Playfair Display";
+  font-size:32px;
+  font-style: normal;
+  font-weight:600;
+  line-height:40px;
+}
+
+.link-label{
+  color:#461500;
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+
+.link-text {
+  color: #102D3B;
+  font-family: "Noto Sans Devanagari", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none; 
+  display: block; 
+  padding-bottom: 55px;
+}
