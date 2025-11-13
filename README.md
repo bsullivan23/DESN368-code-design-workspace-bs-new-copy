@@ -95,6 +95,24 @@ I explored how to structure content with lists and links, and how the box model 
 - ✓ Certification Project: Tribute Page
 - ✓ Weekly visual notes
 
+# Project 1: Tribute Page
+
+## Links
+- **Figma Design:** https://www.figma.com/design/1MGbE2ZNkSyh3w6KuipKGF/tribute-emilydickinson-bs-f25?node-id=32-22&m=dev
+- **Live Page:** https://animated-invention-97g766pp9rp529x4q-5505.app.github.dev/week-4/tribute-styles.html
+
+## Reflection
+
+**What was the hardest part of translating your design to code?**
+The hardest part for me was taking everything that I have learned thus far and applying it to my own desgin. I would say that the image backgrounds were definetly the most difficult to understand and impliment . 
+
+**What CSS property/concept do you feel you understand better now?**
+The CSS concept that I fell like I understand much better now after putting it in action is the box-model. I began to understand how margin and padding really work in terms of layout. 
+
+**How closely does your code match your design? What would you do differently?**
+I would say that my code matches my design very closely. The onyl thin still in the works is getting my background images to link correctly but everything else is pretty close to my original design.
+
+
 **Files:** 
 tribute-styles.css, tribute-styles.html
 
