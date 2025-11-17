@@ -99,7 +99,7 @@ I explored how to structure content with lists and links, and how the box model 
 
 ## Links
 - **Figma Design:** https://www.figma.com/design/1MGbE2ZNkSyh3w6KuipKGF/tribute-emilydickinson-bs-f25?node-id=32-22&m=dev
-- **Live Page:** https://animated-invention-97g766pp9rp529x4q-5505.app.github.dev/week-4/tribute-styles.html
+- **Live Page:** https://bsullivan23.github.io/DESN368-code-design-workspace-bs-new-copy/week-4/tribute-styles.html
 
 ## Reflection
 
