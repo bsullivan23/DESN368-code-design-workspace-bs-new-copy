@@ -104,7 +104,7 @@ I explored how to structure content with lists and links, and how the box model 
 ## Reflection
 
 **What was the hardest part of translating your design to code?**
-The hardest part for me was taking everything that I have learned thus far and applying it to my own desgin. I would say that the image backgrounds were definetly the most difficult to understand and impliment . 
+The hardest part for me was taking everything that I have learned thus far and applying it to my own desgin. I would say that the image backgrounds were definitely the most difficult to understand and impliment . 
 
 **What CSS property/concept do you feel you understand better now?**
 The CSS concept that I fell like I understand much better now after putting it in action is the box-model. I began to understand how margin and padding really work in terms of layout. 
