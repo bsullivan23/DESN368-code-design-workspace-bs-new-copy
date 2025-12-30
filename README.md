@@ -138,8 +138,9 @@ I learned how to target elements precisely with CSS selectors and how layout cho
 - p5c #3: The Good and the Bad
 - Project 3.1: Design Brief – Interactive Field Guide
 
-**Files:**
 
+## Links
+- **Figma Design:** https://www.figma.com/design/0UTv0mJc5i7aEwMXQ1s2Nj/interactive-field-guide-bs?node-id=0-1&p=f&t=iMIEnUe5zcGjbMhf-0 
 ---
 ## Week 6 - Flexbox a Tribute
 
@@ -158,6 +159,12 @@ I applied Flexbox to build responsive layouts and created a mobile navigation sy
 - Mobile nav tutorial
 
 **Files:**
+flexbox-tutorial, mobile nav tutorial, coded-interactive-field-guide
+
+## Links
+- **Flexbox Tutorial:** https://codepen.io/bsullivan23/pen/zxBOVaj
+- **Mobile Nav Tutorial:**https://codepen.io/bsullivan23/pen/QwEbaad
+- **Live Page:** 
 
 ---
 ## Resources

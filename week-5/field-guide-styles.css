@@ -1,0 +1,115 @@
+/* Base layout */
+
+.page { padding: 0; 
+}
+.content-wrapper { max-width: none; width: 100%; }
+
+/* Title at the top, no candle here */
+
+.title-block {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.title-block h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  color: #3b2f2f;
+  margin-bottom: 0.5rem;
+}
+
+.title-block p {
+  font-size: 36px;
+  color: #6b5a54;
+  opacity: 0.85;
+}
+
+ 
+
+.container { 
+  width: 100%;
+  display: flex;
+  gap: 3rem; 
+}
+
+/* Sidebar on the left */
+
+.sidebar {
+  flex: 0 0 300px;
+  background-color: #edd5ce;
+}
+
+.sidebar h2 {
+  margin-bottom: 2.5rem;
+  font-size: 24px;
+  text-transform:uppercase;
+  letter-spacing: 0.08em;
+  font-family: "Playfair Display";
+  font-style: bold;
+  color: #5C4A3d;
+  text-align: center;
+  margin-top:250px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.sidebar li {
+  margin-bottom: 0.75rem;
+}
+
+.sidebar a {
+  color: #5a4a42;
+  text-decoration: none;
+  font-size: 24px;
+  line-height:60px;
+  font-weight:700;
+}
+
+/* Content on the right */
+
+.content { 
+  flex: 1; 
+  padding: 2rem 3rem; 
+}
+/* Image + section styling */
+
+.section-image {
+  width: 160px;         /* adjust to match Figma */
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.content section {
+  /* no big card here – just simple flow */
+}
+
+.content h2 {
+  font-family: "Playfair Display", serif;
+  color: #5a4a42;
+  margin-bottom: 0.75rem;
+  font-size: 1.8rem;
+}
+
+.content p {
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 2rem 1.5rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex: 1 1 auto;
+  }
+}
