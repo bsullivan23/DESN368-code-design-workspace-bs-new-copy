@@ -1,10 +1,7 @@
-/* Base layout */
 
-.page { padding: 0; 
-}
+
+.page { padding: 0; }
 .content-wrapper { max-width: none; width: 100%; }
-
-/* Title at the top, no candle here */
 
 .title-block {
   text-align: center;
@@ -18,37 +15,36 @@
   margin-bottom: 0.5rem;
 }
 
-.title-block p {
-  font-size: 36px;
-  color: #6b5a54;
-  opacity: 0.85;
-}
-
- 
-
 .container { 
   width: 100%;
   display: flex;
   gap: 3rem; 
 }
 
-/* Sidebar on the left */
-
 .sidebar {
   flex: 0 0 300px;
   background-color: #edd5ce;
+   position: relative;
 }
+
+.sidebar-deco {
+  width: 200px;
+  margin-top: 75px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 .sidebar h2 {
   margin-bottom: 2.5rem;
-  font-size: 24px;
-  text-transform:uppercase;
+  font-size: 32px;
+  text-transform: uppercase;
   letter-spacing: 0.08em;
   font-family: "Playfair Display";
-  font-style: bold;
   color: #5C4A3d;
   text-align: center;
-  margin-top:250px;
+  margin-top: 100px;
 }
 
 .sidebar ul {
@@ -65,35 +61,118 @@
   color: #5a4a42;
   text-decoration: none;
   font-size: 24px;
-  line-height:60px;
-  font-weight:700;
+  line-height: 60px;
+  font-weight: 700;
+}
+.sidebar a {
+  color: #5a4a42;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 60px;
+  font-weight: 700;
+  transition: color 0.3s ease, letter-spacing 0.3s ease; /* had ai help me with this*/
 }
 
-/* Content on the right */
+.sidebar a:hover {
+  color: #3b2f2f;           
+  letter-spacing: 0.05em;    /* had ai help me with this*/
+}
+
+.sidebar-deco2 { /*had ai help me with this*/
+  position: absolute;
+  bottom: 75px;
+  left: 0;
+  right: 0;
+  margin: 0 auto; 
+  width: 180px;
+  height: auto;
+}
+
 
 .content { 
   flex: 1; 
   padding: 2rem 3rem; 
 }
-/* Image + section styling */
 
-.section-image {
-  width: 160px;         /* adjust to match Figma */
-  display: block;
-  margin-bottom: 1.5rem;
+.deco-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.deco {
+  width: 350px;
+  height: auto;
+  text-align:center;
+}
+
+.text-box-green,
+.text-box-blue,
+.text-box-yellow {
+  max-width: 871px;          
+  margin: 150px auto 4rem;    
+  text-align: left;     
+  padding: 4rem 4rem;     
+}
+
+.text-box-green ul,
+.text-box-blue ul,
+.text-box-yellow ul {
+  width: fit-content;      
+  margin: 0 auto 1.5rem;   
+  text-align: left;        
+  padding-left: 1.5rem;    
 }
 
 
+
+.text-box-green {
+  background: rgba(164,164,89,0.38);
+}
+
+.text-box-blue {
+  background: rgba(197,216,236,1);
+}
+
+.text-box-yellow {
+  background: rgba(215,177,100,0.35);
+}
+
+.text-box-green h2,
+.text-box-blue h2,
+.text-box-yellow h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 
 .content h2 {
   font-family: "Playfair Display", serif;
   color: #5a4a42;
-  margin-bottom: 0.75rem;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
+}
+
+.content h4 {
+  font-family: "Playfair Display", serif;
+  color: #5a4a42;
+  font-size: 36px;
+  font-weight: 500;
 }
 
 .content p {
   margin-bottom: 0.75rem;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  line-height: 1.6em;
+  color: rgba(92,74,61,1);
+}
+
+.content ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  font-size: 24px;
+  font-family: Playfair Display, serif;
+  line-height: 1.6em;
+  color: rgba(92,74,61,1);
 }
 
 /* Responsive */
@@ -111,3 +190,4 @@
     flex: 1 1 auto;
   }
 }
+
