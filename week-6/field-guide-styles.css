@@ -11,7 +11,7 @@
 .title-block h1 {
   font-family: "Playfair Display", serif;
   font-size: 64px;
-  color: #3b2f2f;
+  color: #5C4A3D;
   margin-bottom: 0.5rem;
 }
 
@@ -24,19 +24,22 @@
 .sidebar {
   flex: 0 0 300px;
   background-color: #edd5ce;
-   position: relative;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-deco {
   width: 200px;
   margin-top: 75px;
   display: block;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 
-
 .sidebar h2 {
+  margin-top: 100px;
   margin-bottom: 2.5rem;
   font-size: 32px;
   text-transform: uppercase;
@@ -44,7 +47,6 @@
   font-family: "Playfair Display";
   color: #5C4A3d;
   text-align: center;
-  margin-top: 100px;
 }
 
 .sidebar ul {
@@ -63,29 +65,41 @@
   font-size: 24px;
   line-height: 60px;
   font-weight: 700;
-}
-.sidebar a {
-  color: #5a4a42;
-  text-decoration: none;
-  font-size: 24px;
-  line-height: 60px;
-  font-weight: 700;
-  transition: color 0.3s ease, letter-spacing 0.3s ease; /* had ai help me with this*/
+  transition: color 0.3s ease, letter-spacing 0.3s ease; /* ai helped me with this*/
 }
 
 .sidebar a:hover {
-  color: #3b2f2f;           
-  letter-spacing: 0.05em;    /* had ai help me with this*/
+  color: #3b2f2f;
+  letter-spacing: 0.05em;
 }
 
-.sidebar-deco2 { /*had ai help me with this*/
-  position: absolute;
-  bottom: 75px;
-  left: 0;
-  right: 0;
-  margin: 0 auto; 
-  width: 180px;
-  height: auto;
+
+.sidebar-deco2 {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.back-to-top { /*ai helped me with this*/
+  margin-top: auto; 
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #5a4a42;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+.sidebar-bottom {
+  margin-top: auto; /* pushes this whole group to the bottom */
+  text-align: center;
 }
 
 
@@ -124,8 +138,6 @@
   padding-left: 1.5rem;    
 }
 
-
-
 .text-box-green {
   background: rgba(164,164,89,0.38);
 }
@@ -142,7 +154,7 @@
 .text-box-blue h2,
 .text-box-yellow h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 .content h2 {
@@ -204,21 +216,72 @@
   background-color: rgba(255,238,208,1);
 }
 
-.back-to-top {
-  display: block;
-  text-align: center;
-  margin: 3rem auto;
-  font-size: 18px;
-  color: #5a4a42;
-  text-decoration: none;
-  font-weight: 600;
+
+.portfolio-button{
+  background-color:rgba(92,74,61,1);
+  color:#FDF8F3;
+  text-align:center;
+  font-family:"Playfair Display", serif;
+  font-size:24px;
+  border-radius:25px;
+  padding:1rem 3rem;
+  text-decoration:none;
+
 }
 
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+  margin-top:5rem;
+}
+.case-button {
+  background-color: rgba(92, 74, 61, 1);
+  color: #FDF8F3;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.button-divider {
+  border: none;
+  height: 5px;
+  background-color: #5C4A3D;
+  max-width: 1,000px; 
+  margin: 2rem auto;
+  padding: auto;  
+}
 footer {
   text-align: center;
   padding: 2rem 1rem;
   margin-top: 4rem;
 }
+
+
+/*Case Study Page Specific Styles*/
+h5 {
+  font-family: "Playfair Display", serif;
+  color: #5C4A3D;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-family: "Playfair Display", serif;
+  color: #5C4A3D;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 0;
+}
+
+
 /* Responsive */
 
 @media (max-width: 768px) {
