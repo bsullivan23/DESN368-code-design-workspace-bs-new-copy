@@ -175,6 +175,50 @@
   color: rgba(92,74,61,1);
 }
 
+.code-snippet {
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  max-width: 350px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.code-snippet pre {
+  margin: 0;
+  font-size: 20px;
+  color: #5a4a42;
+  white-space: pre-wrap;
+  display: block;
+  text-align: center;
+}
+
+.code-snippet-green {
+  background-color: rgba(246,242,209,1);
+}
+
+.code-snippet-blue {
+  background-color: rgba(213,233,255,1);
+}
+
+.code-snippet-yellow {
+  background-color: rgba(255,238,208,1);
+}
+
+.back-to-top {
+  display: block;
+  text-align: center;
+  margin: 3rem auto;
+  font-size: 18px;
+  color: #5a4a42;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+}
 /* Responsive */
 
 @media (max-width: 768px) {
