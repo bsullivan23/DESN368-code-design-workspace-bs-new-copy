@@ -285,8 +285,12 @@ h6 {
   font-weight: 500;
   line-height: 40px;
   margin-top: 0;
+  margin-bottom:0.25rem;
 }
 
+h6 + p {
+  margin-top: 0.25rem;
+}
 .hamburger {
   display: none;
 }

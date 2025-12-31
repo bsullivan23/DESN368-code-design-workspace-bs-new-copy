@@ -159,12 +159,12 @@ I applied Flexbox to build responsive layouts and created a mobile navigation sy
 - Mobile nav tutorial
 
 **Files:**
-flexbox-tutorial, mobile nav tutorial, coded-interactive-field-guide
+flexbox-tutorial, mobile-nav-tutorial, coded-interactive-field-guide
 
 ## Links
 - **Flexbox Tutorial:** https://codepen.io/bsullivan23/pen/zxBOVaj
 - **Mobile Nav Tutorial:**https://codepen.io/bsullivan23/pen/QwEbaad
-- **Live Page:** 
+- **Live Page:** https://orange-fishstick-7vjv77gg94qv2x57q-5508.app.github.dev/week-6/field-guide-styles.html 
 
 ---
 ## Resources
