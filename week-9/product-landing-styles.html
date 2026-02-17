@@ -1,256 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steeped Tea</title>
+  <link rel="stylesheet" href="product-landing-styles.css">
 </head>
+
 <body>
-     <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-content">
-            <div class="play-button"></div>
-            <p class="hero-tagline">Slow the moment - loose leaf teas for calm</p>
-            <a href="#shop" class="btn btn-primary">Shop Starter Set</a>
-        </div>
-    </section>
 
-    <!-- FEATURES SECTION -->
-    <section class="features-section">
-        <div class="container">
-            <div class="features-grid">
-                <div class="feature-card fade-in-up">
-                    <h3>Mood Based Blends</h3>
-                    <ul>
-                        <li>Blends that meet you where you are</li>
-                        <li>Morning energy to evening calm</li>
-                        <li>Tea for every feeling</li>
-                    </ul>
-                </div>
-                <div class="feature-card fade-in-up" style="animation-delay: 0.1s;">
-                    <h3>Ethical Sourcing</h3>
-                    <ul>
-                        <li>Taste the difference ethics makes</li>
-                        <li>Supporting sustainable tea communities</li>
-                        <li>Pure ingredients, honest origins</li>
-                    </ul>
-                </div>
-                <div class="feature-card fade-in-up" style="animation-delay: 0.2s;">
-                    <h3>Simple Rituals</h3>
-                    <ul>
-                        <li>Slow down with intention</li>
-                        <li>Five minutes to find your center</li>
-                        <li>Ritual made easy</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <div class="nav-left">
+  <img class="nav-deco" src="images/nav-deco.png" alt="logo">
+  <div class="nav-logo">Steeped</div>
+</div>
+    <nav class="nav-links">
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Cart</a>
+    </nav>
+  </header>
 
-    <!-- PRODUCTS SECTION -->
-    <section class="products-section" id="shop">
-        <div class="container">
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <!-- Placeholder for botanical illustration -->
-                        <svg viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M50 20 Q60 40 55 70 T50 130" stroke="currentColor" fill="none" stroke-width="2"/>
-                            <ellipse cx="45" cy="40" rx="15" ry="8" fill="currentColor" opacity="0.3"/>
-                            <ellipse cx="55" cy="60" rx="12" ry="7" fill="currentColor" opacity="0.3"/>
-                        </svg>
-                    </div>
-                    <h4>Morning Clarity</h4>
-                    <p class="product-flavor">White tea with jasmine & honeysuckle</p>
-                    <p class="product-price">$12</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <svg viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M50 30 L50 120" stroke="currentColor" fill="none" stroke-width="2"/>
-                            <ellipse cx="50" cy="50" rx="20" ry="12" fill="currentColor" opacity="0.3"/>
-                            <ellipse cx="50" cy="80" rx="18" ry="10" fill="currentColor" opacity="0.3"/>
-                        </svg>
-                    </div>
-                    <h4>Earth & Ease</h4>
-                    <p class="product-flavor">Green tea with lemon balm & sage</p>
-                    <p class="product-price">$11</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <svg viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M50 30 L50 120" stroke="currentColor" fill="none" stroke-width="2"/>
-                            <circle cx="50" cy="40" r="4" fill="currentColor"/>
-                            <circle cx="50" cy="55" r="4" fill="currentColor"/>
-                            <circle cx="50" cy="70" r="4" fill="currentColor"/>
-                        </svg>
-                    </div>
-                    <h4>Evening Unwind</h4>
-                    <p class="product-flavor">Herbal blend with lavender & chamomile</p>
-                    <p class="product-price">$10</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-video">
+      <!-- Replace with actual video embed or image -->
+      <img src="hero-placeholder.jpg" alt="Tea being poured">
+    </div>
 
-    <!-- COMPARISON TABLE -->
-    <section class="table-section">
-        <div class="container">
-            <h2 class="text-center">Find Your Perfect Blend</h2>
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Blend Name</th>
-                        <th>Flavor Notes</th>
-                        <th>Best time to Drink</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Morning Clarity</td>
-                        <td>Jasmine, honeysuckle, delicate floral</td>
-                        <td>Early morning, before breakfast</td>
-                    </tr>
-                    <tr>
-                        <td>Earth & Ease</td>
-                        <td>Lemon balm, sage, herbal green</td>
-                        <td>Midday, afternoon focus</td>
-                    </tr>
-                    <tr>
-                        <td>Evening Unwind</td>
-                        <td>Lavender, chamomile, calming florals</td>
-                        <td>Before bed, evening ritual</td>
-                    </tr>
-                    <tr>
-                        <td>Golden Hour</td>
-                        <td>Turmeric, ginger, citrus warmth</td>
-                        <td>Late afternoon, post-workout</td>
-                    </tr>
-                    <tr>
-                        <td>Deep Rest</td>
-                        <td>Peppermint, valerian, soothing mint</td>
-                        <td>Night time, stress relief</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+    <div class="hero-text">
+      <h1>Slow the moment — loose leaf teas for calm</h1>
+      <button class="btn-primary">Shop Starter Set</button>
+    </div>
+  </section>
 
-    <!-- EMAIL SIGNUP FORM -->
-    <section class="signup-section">
-        <div class="container">
-            <div class="signup-container">
-                <h2>Begin Your Tea Journey</h2>
-                <p>Join our community for seasonal blends, mindful rituals, and exclusive offers</p>
-                
-                <form id="signupForm">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Name" aria-label="Name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Email" required aria-label="Email">
-                    </div>
-                    
-                    <div class="checkbox-group">
-                        <label>
-                            <input type="checkbox" name="newsletter" value="yes" checked>
-                            <span>Send me the newsletter</span>
-                        </label>
-                        <label>
-                            <input type="checkbox" name="purchase" value="yes">
-                            <span>I'm ready to purchase the starter set</span>
-                        </label>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary form-button">Get Started</button>
-                    
-                    <p class="form-microcopy">We respect your inbox. Unsubscribe anytime.</p>
-                </form>
-            </div>
-        </div>
-    </section>
+  <!-- VALUE PILLARS -->
+  <section class="pillars">
+    <div class="pillar">
+      <h2>Mood Based Blends</h2>
+      <ul>
+        <li>Blends that meet you where you are</li>
+        <li>Morning energy to evening calm</li>
+        <li>Tea for every feeling</li>
+      </ul>
+    </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-links">
-                    <a href="#about">About</a>
-                    <a href="#sourcing">Sourcing</a>
-                    <a href="#instagram">Instagram</a>
-                    <a href="#faq">FAQ</a>
-                </div>
-                <p class="footer-copy">&copy; 2026 Steeped. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <div class="pillar">
+      <h2>Ethical Sourcing</h2>
+      <ul>
+        <li>Taste the difference ethics make</li>
+        <li>Supporting sustainable tea communities</li>
+        <li>Pure ingredients, honest origins</li>
+      </ul>
+    </div>
 
-    <!-- FORM HANDLING SCRIPT -->
-    <script>
-        // Form submission handling
-        document.getElementById('signupForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const formData = {
-                name: this.name.value,
-                email: this.email.value,
-                newsletter: this.newsletter.checked,
-                purchase: this.purchase.checked
-            };
-            
-            console.log('Form submitted:', formData);
-            
-            // Show success message
-            alert('Thank you for joining our tea community! 🍵');
-            
-            // Reset form
-            this.reset();
-            this.newsletter.checked = true; // Keep newsletter checked by default
-        });
+    <div class="pillar">
+      <h2>Simple Rituals</h2>
+      <ul>
+        <li>Slow down with intention</li>
+        <li>Five minutes to find your center</li>
+        <li>Ritual made easy</li>
+      </ul>
+    </div>
+  </section>
 
-        // Smooth scroll for navigation
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
+  <!-- FEATURED TEAS -->
+  <section class="featured-teas">
+    <div class="tea-card">
+      <h3>Morning Clarity</h3>
+      <p>White tea with jasmine & honeysuckle</p>
+      <span class="price">$12</span>
+    </div>
 
-        // Play button functionality (optional video integration)
-        document.querySelector('.play-button').addEventListener('click', function() {
-            alert('Video player would open here - integrate with YouTube, Vimeo, or custom video player');
-        });
+    <div class="tea-card">
+      <h3>Earth & Ease</h3>
+      <p>Green tea with lemon balm & sage</p>
+      <span class="price">$11</span>
+    </div>
 
-        // Intersection Observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+    <div class="tea-card">
+      <h3>Evening Unwind</h3>
+      <p>Herbal blend with lavender & chamomile</p>
+      <span class="price">$10</span>
+    </div>
+  </section>
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
+  <!-- TEA TABLE -->
+  <section class="tea-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Blend Name</th>
+          <th>Flavor Notes</th>
+          <th>Best Time to Drink</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Morning Clarity</td>
+          <td>Jasmine, honeysuckle, delicate floral</td>
+          <td>Early morning, before breakfast</td>
+        </tr>
+        <tr>
+          <td>Earth & Ease</td>
+          <td>Lemon balm, sage, herbal green</td>
+          <td>Midday, afternoon focus</td>
+        </tr>
+        <tr>
+          <td>Evening Unwind</td>
+          <td>Lavender, chamomile, calming florals</td>
+          <td>Before bed, evening ritual</td>
+        </tr>
+        <tr>
+          <td>Golden Hour</td>
+          <td>Turmeric, ginger, citrus warmth</td>
+          <td>Late afternoon, post-workout</td>
+        </tr>
+        <tr>
+          <td>Deep Rest</td>
+          <td>Peppermint, valerian, soothing mint</td>
+          <td>Night time, stress relief</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-        // Observe all cards for animation
-        document.querySelectorAll('.feature-card, .product-card').forEach(card => {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(20px)';
-            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(card);
-        });
-    </script>
-</body>
+  <!-- SIGNUP FORM -->
+  <section class="signup">
+    <h2>Begin Your Tea Journey</h2>
+    <p>Join our community for seasonal blends</p>
+
+    <form>
+      <label>
+        Name
+        <input type="text" name="name">
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email">
+      </label>
+
+      <label class="checkbox">
+        <input type="checkbox" name="newsletter">
+        Subscribe to newsletter
+      </label>
+
+      <label class="checkbox">
+        <input type="checkbox" name="starter-set">
+        Purchase starter set
+      </label>
+
+      <button class="btn-primary">Get Started</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#">About</a>
+    <a href="#">Sourcing</a>
+    <a href="#">Instagram</a>
+    <a href="#">FAQ</a>
+  </footer>
+
 </body>
 </html>
