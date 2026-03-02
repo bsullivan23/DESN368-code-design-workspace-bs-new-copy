@@ -390,8 +390,12 @@ p, li, td, th {
 }
 
 .price {
-  color: var(--warm-clay);
+  color: #D17553;
+  font-family: Fraunces, serif;
   font-weight: 600;
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-top: 0.4rem;
 }
 
 /* ===========================
