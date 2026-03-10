@@ -48,7 +48,7 @@ p, li, td, th {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 2rem;
-  background-color: #C9AB4C;
+  background-color: rgba(196, 172, 91, 0.65);
   width: 100%;
   height:103px;
 }
@@ -402,51 +402,107 @@ p, li, td, th {
    TEA TABLE
    =========================== */
 .tea-table table {
-  width: 100%;
+  width: min(90%, 900px);
   border-collapse: collapse;
-  margin: 3rem 0;
+  table-layout: fixed;
+  margin: 3rem auto;
+  background-color: rgba(120, 159, 143, 0.2);
+  border: 3px solid #789F8F;
 }
 
 .tea-table th {
-  background-color: var(--soft-sage);
-  color: white;
+  background-color: rgba(196, 172, 91, 0.5);
+  color: #000;
   padding: 0.8rem;
+  border: 1px solid #789F8F;
+  border-bottom: 3px solid #789F8F;
+  font-family: Fraunces, serif;
+  font-size: 24px;
 }
 
 .tea-table td {
   padding: 0.8rem;
-  border-bottom: 1px solid var(--soft-sage);
+  border: 1px solid #789F8F;
 }
 
 /* ===========================
    SIGNUP FORM
    =========================== */
 .signup {
-  background-color: white;
+  background-color: rgba(196, 172, 91, 0.5);
   padding: 3rem 2rem;
   border-radius: 8px;
   max-width: 600px;
   margin: 3rem auto;
-  border: 1px solid var(--soft-sage);
+  border: 3px solid #789F8F;
+}
+
+.signup h2 {
+  font-family: Fraunces, serif;
 }
 
 .signup form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.signup form > label:not(.checkbox) {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 300px);
+  align-items: center;
+  column-gap: 0.05rem;
+  width: min(100%, 390px);
+  margin: 0 0 0 2.2rem;
+  font-family: Fraunces, serif;
 }
 
 .signup input[type="text"],
 .signup input[type="email"] {
+  display: block;
+  width: 100%;
   padding: 0.6rem;
-  border: 1px solid var(--soft-sage);
+  border: 2px solid #789F8F;
   border-radius: 4px;
+  background-color: #fff;
 }
 
-.checkbox {
+.signup input[type="checkbox"] {
+  border: 3px solid #789F8F;
+  background-color: #fff;
+  accent-color: #789F8F;
+}
+
+.signup input[type="text"]:focus,
+.signup input[type="email"]:focus,
+.signup input[type="checkbox"]:focus {
+  outline: 2px solid #D17553;
+  outline-offset: 2px;
+  border-color: #D17553;
+}
+
+.signup .checkbox {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   gap: 0.5rem;
+  width: min(100%, 250px);
+  margin: 0 auto;
+  align-self: center;
+  text-align: left;
+  transform: translateX(24px);
+}
+
+.signup .checkbox + .checkbox {
+  margin-top: -0.35rem;
+}
+
+.signup .btn-primary {
+  padding: 14px 28px;
+  font-size: 1.05rem;
+  border-width: 4px;
+  align-self: center;
 }
 
 /* ===========================
@@ -461,8 +517,23 @@ p, li, td, th {
 }
 
 .footer a {
+  position: relative;
   text-decoration: none;
   color: var(--charcoal);
+  padding: 0;
+}
+
+.footer a:not(:last-child)::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #789F8F;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: calc(100% + 1rem);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .footer a:hover {
@@ -517,6 +588,33 @@ p, li, td, th {
     max-width: 400px;
     flex: 0 0 auto;
   }
+
+  .signup {
+    width: 92%;
+    padding: 2rem 1.25rem;
+    margin: 2rem auto;
+  }
+
+  .signup form > label:not(.checkbox) {
+    grid-template-columns: 1fr;
+    row-gap: 0.35rem;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .signup .checkbox {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    transform: none;
+    align-self: center;
+  }
+
+  .signup .checkbox {
+    margin-left: 0;
+    align-self: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -550,6 +648,20 @@ p, li, td, th {
   .tea-card {
     width: 100%;
     padding: 20px;
+  }
+
+  .signup {
+    width: 94%;
+    padding: 1.5rem 1rem;
+  }
+
+  .signup h2 {
+    font-size: 1.5rem;
+  }
+
+  .signup .btn-primary {
+    padding: 12px 22px;
+    font-size: 1rem;
   }
 
   .pillar h2 {
